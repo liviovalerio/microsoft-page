@@ -316,6 +316,11 @@ ul{
     .links .links-inner{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer-inner{
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -329,5 +334,9 @@ ul{
 
     .links .links-inner ul{
         margin-bottom: 20px;
+    }
+
+    .footer-inner{
+        flex-direction: column;
     }
 }
